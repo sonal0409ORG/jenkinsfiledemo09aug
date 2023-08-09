@@ -2,7 +2,7 @@
 
 pipeline{
     
-    agent any
+    agent {label 'linux_node'}
     
     tools{
         maven 'mymaven'
